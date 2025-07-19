@@ -1,0 +1,37 @@
+{
+    "name": "restaurant-backend",
+    "version": "1.0.0",
+    "main": "server.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/server.js",
+        "dev": "nodemon src/server.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yididiabera/restaurant-backend.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/yididiabera/restaurant-backend/issues"
+    },
+    "homepage": "https://github.com/yididiabera/restaurant-backend#readme",
+    "dependencies": {
+        "bcrypt": "^6.0.0",
+        "cors": "^2.8.5",
+        "dotenv": "^17.2.0",
+        "express": "^5.1.0",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^8.16.3"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.3",
+        "@types/node": "^24.0.15",
+        "nodemon": "^3.1.10",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.8.3"
+    },
+    "description": ""
+}
